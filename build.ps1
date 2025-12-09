@@ -34,15 +34,30 @@ Copy-Item (Join-Path $projectRoot "data") -Destination $buildDir -Recurse -Force
 # Create JAR file (which is just a ZIP file with .jar extension)
 Write-Host "Creating JAR file..." -ForegroundColor Cyan
 
-# Remove old JAR if it exists
+# Remove old JAR if it exists (with retry logic)
 if (Test-Path $jarPath) {
-    Remove-Item $jarPath -Force
+    try {
+        [System.GC]::Collect()
+        [System.GC]::WaitForPendingFinalizers()
+        Start-Sleep -Milliseconds 500
+        Remove-Item $jarPath -Force -ErrorAction Stop
+    } catch {
+        Write-Warning "Could not remove old JAR file. It may be in use by another process."
+        Write-Warning "Please close any programs that might have the JAR file open and try again."
+        exit 1
+    }
 }
 
 # Create the JAR (zip archive)
 $compressionLevel = [System.IO.Compression.CompressionLevel]::Optimal
 Add-Type -AssemblyName System.IO.Compression.FileSystem
-[System.IO.Compression.ZipFile]::CreateFromDirectory($buildDir, $jarPath, $compressionLevel, $false)
+try {
+    [System.IO.Compression.ZipFile]::CreateFromDirectory($buildDir, $jarPath, $compressionLevel, $false)
+} catch {
+    Write-Error "Failed to create JAR file: $_"
+    Remove-Item $buildDir -Recurse -Force -ErrorAction SilentlyContinue
+    exit 1
+}
 
 # Clean up build directory
 Write-Host "Cleaning up..." -ForegroundColor Yellow
