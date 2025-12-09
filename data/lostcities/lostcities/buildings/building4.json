@@ -20,15 +20,7 @@
     },
     {
       "top": true,
-      "part": "top4_1"
-    },
-    {
-      "top": true,
-      "part": "top4_2"
-    },
-    {
-      "top": true,
-      "part": "top4_3"
+      "part": "top"
     }
   ]
 }
