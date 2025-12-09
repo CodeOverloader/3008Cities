@@ -3,21 +3,21 @@ loaderVersion="[40,)"
 license="Apache License version 2.0"
 
 [[mods]]
-modId="keerdm_zombie_essentials"
+modId="scp3008"
 version="1.4"
 displayName="Keerdm's Zombie Apocalypse Essentials"
 description="Enhance your zombie apocolypse modpack"
 authors="keerdm"
 logoFile="icon.png"
 
-[[dependencies.keerdm_zombie_essentials]]
+[[dependencies.scp3008]]
     modId="lostcities"
     mandatory=true
     versionRange="[1.19-6.2.0,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.keerdm_zombie_essentials]]
+[[dependencies.scp3008]]
     modId="immersive_weathering"
     mandatory=true
     versionRange="[1.19-3.0,)"

@@ -5,9 +5,9 @@ Write-Host "Building Lost Cities datapack JAR..." -ForegroundColor Green
 
 # Define variables
 $projectRoot = $PSScriptRoot
-$buildDir = Join-Path $projectRoot "build"
-$jarName = "3008Cities.jar"
-$jarPath = Join-Path $projectRoot $jarName
+$buildDir    = Join-Path $projectRoot "build"
+$jarName     = "3008Cities.jar"
+$jarPath     = Join-Path $projectRoot $jarName
 
 # Clean previous build
 if (Test-Path $buildDir) {
@@ -22,17 +22,14 @@ New-Item -ItemType Directory -Path $buildDir -Force | Out-Null
 # Copy required files to build directory
 Write-Host "Copying files to build directory..." -ForegroundColor Cyan
 
-# Copy pack.mcmeta
+# pack.mcmeta
 Copy-Item (Join-Path $projectRoot "pack.mcmeta") -Destination $buildDir -Force
 
-# Copy META-INF
+# META-INF
 Copy-Item (Join-Path $projectRoot "META-INF") -Destination $buildDir -Recurse -Force
 
-# Copy data folder
+# data folder
 Copy-Item (Join-Path $projectRoot "data") -Destination $buildDir -Recurse -Force
-
-# Create JAR file (which is just a ZIP file with .jar extension)
-Write-Host "Creating JAR file..." -ForegroundColor Cyan
 
 # Remove old JAR if it exists (with retry logic)
 if (Test-Path $jarPath) {
@@ -48,15 +45,41 @@ if (Test-Path $jarPath) {
     }
 }
 
-# Create the JAR (zip archive)
-$compressionLevel = [System.IO.Compression.CompressionLevel]::Optimal
+# Create the JAR (zip archive) with correct forward-slash paths
+Write-Host "Creating JAR file..." -ForegroundColor Cyan
+
+Add-Type -AssemblyName System.IO.Compression
 Add-Type -AssemblyName System.IO.Compression.FileSystem
+
+$compressionLevel = [System.IO.Compression.CompressionLevel]::Optimal
+
 try {
-    [System.IO.Compression.ZipFile]::CreateFromDirectory($buildDir, $jarPath, $compressionLevel, $false)
-} catch {
+    $zip = [System.IO.Compression.ZipFile]::Open($jarPath,
+        [System.IO.Compression.ZipArchiveMode]::Create)
+
+    Get-ChildItem -Path $buildDir -Recurse -File | ForEach-Object {
+        # Relative path inside the JAR
+        $relativePath = $_.FullName.Substring($buildDir.Length + 1)
+
+        # IMPORTANT: normalize to forward slashes for Java/Forge
+        $entryName = $relativePath -replace '\\','/'
+
+        [System.IO.Compression.ZipFileExtensions]::CreateEntryFromFile(
+            $zip,
+            $_.FullName,
+            $entryName,
+            $compressionLevel
+        ) | Out-Null
+    }
+}
+catch {
     Write-Error "Failed to create JAR file: $_"
+    if ($zip) { $zip.Dispose() }
     Remove-Item $buildDir -Recurse -Force -ErrorAction SilentlyContinue
     exit 1
+}
+finally {
+    if ($zip) { $zip.Dispose() }
 }
 
 # Clean up build directory

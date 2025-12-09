@@ -52,23 +52,23 @@
     ],
     "multibuildings": [
 	  {
-	    "factor": 0.08,
+	    "factor": 0,
         "value": "shopping"
 	  },
       {
-        "factor": 0.02,
+        "factor": 0,
         "value": "townhall"
 	  },
       {
-        "factor": 0.025,
+        "factor": 0,
         "value": "center"
 	  },
       {
-        "factor": 0.025,
+        "factor": 0,
         "value": "library"
 	  },
       {
-        "factor": 0.05,
+        "factor": 0,
         "value": "shopping_open"
       }
     ],
