@@ -1,0 +1,6 @@
+{
+  "multibuilding": "keerdm_zombie_essentials:wind_turbine",
+  "terrainheight": "highest",
+  "terrainfix": "repeatslice",
+  "heightoffset": -1
+}

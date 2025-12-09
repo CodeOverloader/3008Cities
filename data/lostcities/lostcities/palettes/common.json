@@ -6,9 +6,9 @@
       "mob": "easymobs"
     },
     {
-      "char": "4",
+	  "char": "4",
       "block": "minecraft:spawner",
-      "mob": "hardmobs"
+      "mob": "easymobs"
     },
     {
       "char": "T",
@@ -181,7 +181,7 @@
           "block": "minecraft:air"
         }
       ]
-    },
+	},
     {
       "char": "*",
       "block": "minecraft:potted_cactus"
@@ -218,6 +218,10 @@
     {
       "char": "D",
       "block": "minecraft:dirt"
+	},
+    {
+      "char": "Å",
+      "block": "minecraft:chain"
     },
     {
       "char": " ",
@@ -225,7 +229,7 @@
     },
     {
       "char": "~",
-      "block": "minecraft:command_block"
+      "block": "minecraft:structure_void"
     }
   ]
 }

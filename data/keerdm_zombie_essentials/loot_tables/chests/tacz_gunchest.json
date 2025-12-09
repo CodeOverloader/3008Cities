@@ -1,0 +1,497 @@
+{
+  "pools": [
+    {
+      "name": "keerdm_zombie_essentials:gunchest",
+      "rolls": {
+        "min": 2,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:deagle\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 70
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:glock_17\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 70
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:cz75\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 60
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:db_short\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:db_long\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:uzi\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:ump45\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:deagle_golden\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:hk_mp5a5\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:ak47\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 24
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:m4a1\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 24
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:m16a1\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 24
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:m16a4\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:hk_g3\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:sks_tactical\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:vector45\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 16
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:scar_h\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 12
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:rpk\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:m249\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 8
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:aa12\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:m95\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:rpg7\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:ai_awp\",HasBulletInBarrel:1b}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            }
+          ],
+          "weight": 1500
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gunpowder",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            }
+          ],
+          "weight": 800
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 500
+        },
+        {
+          "type": "item",
+          "name": "minecraft:glowstone_dust",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ],
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 40
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "dimx": 2,
+  "dimz": 2,
+  "buildings": [
+    [
+      "keerdm_zombie_essentials:bunker_part1_0_0",
+      "keerdm_zombie_essentials:bunker_part1_0_1"
+    ],
+    [
+      "keerdm_zombie_essentials:bunker_part1_1_0",
+      "keerdm_zombie_essentials:bunker_part1_1_1"
+    ]
+  ]
+}

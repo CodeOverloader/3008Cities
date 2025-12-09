@@ -1,0 +1,13 @@
+{
+  "filler": "#",
+  "rubble": "}",
+  "minfloors": 0,
+  "maxfloors": 0,
+  "mincellars": 2,
+  "maxcellars": 10,
+  "parts": [
+    {
+      "part": "keerdm_zombie_essentials:bunker_part1_1_1"
+    }
+  ]
+}

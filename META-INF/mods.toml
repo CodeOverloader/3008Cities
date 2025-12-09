@@ -1,17 +1,25 @@
 modLoader="lowcodefml"
 loaderVersion="[40,)"
-license="None"
+license="Apache License version 2.0"
 
 [[mods]]
-modId="testassets"
-version="1.0"
-displayName="Test Assets"
-description='''
-Test Assets for Lost Cities
-'''
-[[dependencies.testassets]]
+modId="keerdm_zombie_essentials"
+version="1.4"
+displayName="Keerdm's Zombie Apocalypse Essentials"
+description="Enhance your zombie apocolypse modpack"
+authors="keerdm"
+logoFile="icon.png"
+
+[[dependencies.keerdm_zombie_essentials]]
     modId="lostcities"
     mandatory=true
-    versionRange="[1.18-5.3.6,)"
+    versionRange="[1.19-6.2.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.keerdm_zombie_essentials]]
+    modId="immersive_weathering"
+    mandatory=true
+    versionRange="[1.19-3.0,)"
     ordering="AFTER"
     side="BOTH"

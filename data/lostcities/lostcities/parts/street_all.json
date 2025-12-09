@@ -1,0 +1,32 @@
+{
+  "xsize": 16,
+  "zsize": 16,
+  "palette": {
+    "palette": [
+      {
+        "char": "b",
+        "block": "minecraft:grass_block"
+      }
+    ]
+  },
+  "slices": [
+    [
+      "bvvbSSSSSSSSbvvb",
+      "vvvbSSSSSSSSbvvv",
+      "vvvbSSSSSSSSbvvv",
+      "bbbbSSSSSSSSbbbb",
+      "SSSSSSSSSSSSSSSS",
+      "SSSSSSSSSSSSSSSS",
+      "SSSSSSSSSSSSSSSS",
+      "SSSSSSSSSSSSSSSS",
+      "SSSSSSSSSSSSSSSS",
+      "SSSSSSSSSSSSSSSS",
+      "SSSSSSSSSSSSSSSS",
+      "SSSSSSSSSSSSSSSS",
+      "bbbbSSSSSSSSbbbb",
+      "vvvbSSSSSSSSbvvv",
+      "vvvbSSSSSSSSbvvv",
+      "bvvbSSSSSSSSbvvb"
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "factor": 30,
+      "value": "keerdm_zombie_essentials:chests/abandoned_car_basic_tacz"
+    },
+    {
+      "factor": 20,
+      "value": "keerdm_zombie_essentials:chests/abandoned_car_emergency_tacz"
+    },
+    {
+      "factor": 10,
+      "value": "keerdm_zombie_essentials:chests/abandoned_car_advanced_tacz"
+    }
+  ]
+}

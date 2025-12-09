@@ -1,0 +1,15 @@
+{
+  "dimx": 3,
+  "dimz": 1,
+  "buildings": [
+    [
+      "keerdm_zombie_essentials:wind_turbine_0_0"
+    ],
+    [
+      "keerdm_zombie_essentials:wind_turbine_1_0"
+    ],
+    [
+      "keerdm_zombie_essentials:wind_turbine_2_0"
+    ]
+  ]
+}

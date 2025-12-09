@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: dontfarmme
+Specification-Vendor: keerdm
+Specification-Version: 1.3
+Implementation-Title: Keerdm's Zombie Apocalypse Essentials
+Implementation-Version: 1.3
+Implementation-Vendor: keerdm
+Implementation-Timestamp: 2024-09-05T13:08:28+0200
+

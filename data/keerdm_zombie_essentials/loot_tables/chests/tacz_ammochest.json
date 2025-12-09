@@ -1,0 +1,337 @@
+{
+  "pools": [
+    {
+      "name": "keerdm_zombie_essentials:ammochest",
+      "rolls": {
+        "min": 2,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:9mm\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 10
+              }
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:45acp\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 7,
+                "max": 8
+              }
+            }
+          ],
+          "weight": 35
+        },
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:46x30\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 6,
+                "max": 8
+              }
+            }
+          ],
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:50ae\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 6,
+                "max": 8
+              }
+            }
+          ],
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:magnum_r\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 8
+              }
+            }
+          ],
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:762x25\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:12g\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:30_06\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:357mag\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 12
+        },
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:762x54\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:762x39\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:68x51fury\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 8
+        },
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:58x42\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ],
+          "weight": 8
+        },
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:556x45\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 8
+        },
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:rpg_rocket\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:308\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:50bmg\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "tacz:ammo",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AmmoId:\"tacz:338\"}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

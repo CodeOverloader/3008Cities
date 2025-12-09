@@ -1,0 +1,217 @@
+{
+  "outsidestyle": "outside",
+    "multisettings": {
+    "areasize": 5,
+    "minimum": 1,
+    "maximum": 2,
+    "correctstylefactor": 0.8,
+    "attempts": 50
+  },
+  "scattered": {
+    "areasize": 8,
+    "chance": 0.6,
+    "weightnone": 20,
+    "list": [
+      {
+        "name": "keerdm_zombie_essentials:wind_turbine",
+        "weight": 3,
+        "maxheightdiff": 100,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach"
+          ]
+        }
+      },
+      {
+        "name": "radiotower",
+        "weight": 2,
+        "maxheightdiff": 10,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach",
+			"#forge:is_dry"
+          ]
+        }
+      },
+      {
+		"name": "keerdm_zombie_essentials:powerline_north",
+        "weight": 20,
+        "maxheightdiff": 10,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach"
+          ]
+        }
+      },
+      {
+		"name": "keerdm_zombie_essentials:powerline_west",
+        "weight": 20,
+        "maxheightdiff": 10,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach"
+          ]
+        }
+      },
+      {
+        "name": "oilrig",
+        "weight": 1,
+        "maxheightdiff": 100,
+        "biomes": {
+          "if_any": [
+            "#minecraft:is_deep_ocean"
+          ]
+        }
+      },
+      {
+        "name": "keerdm_zombie_essentials:zombie_cabin",
+        "weight": 10,
+        "maxheightdiff": 5,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach",
+			"minecraft:plains",
+			"#forge:is_dry"
+          ]
+        }
+      }
+    ]
+  },
+  "citybiomemultipliers": [
+    {
+      "multiplier": 0.1,
+      "biomes": {
+        "if_any": [
+          "#minecraft:is_ocean"
+		]
+      }
+    },
+    {
+	  "multiplier": 0.1,
+      "biomes": {
+        "if_any": [
+          "#minecraft:is_deep_ocean"
+		]
+      }
+    },
+    {
+      "multiplier": 0.3,
+      "biomes": {
+        "if_any": [
+          "#minecraft:is_river"
+        ]
+      }
+    }
+  ],
+  "citystyles": [
+    {
+      "factor": 1,
+      "citystyle": "keerdm_zombie_essentials:standard"
+    }
+  ],
+  "parts": {
+    "highways": {
+      "bridge": [
+        "keerdm_zombie_essentials:highway_bridge_variant_1",
+        "keerdm_zombie_essentials:highway_bridge_variant_2",
+        "keerdm_zombie_essentials:highway_bridge_variant_3",
+        "keerdm_zombie_essentials:highway_bridge_variant_4",
+        "keerdm_zombie_essentials:highway_bridge_variant_5",
+        "keerdm_zombie_essentials:highway_bridge_variant_6",
+        "keerdm_zombie_essentials:highway_bridge_variant_7",
+        "highway_bridge",
+        "highway_bridge",
+        "highway_bridge",
+        "highway_bridge",
+        "highway_bridge",
+        "highway_bridge",
+        "highway_bridge",
+        "highway_bridge",
+        "highway_bridge",
+        "highway_bridge",
+        "highway_bridge"
+      ],
+      "bridge_bi": [
+        "keerdm_zombie_essentials:highway_bridge_bi_variant_1",
+        "keerdm_zombie_essentials:highway_bridge_bi_variant_2",
+        "keerdm_zombie_essentials:highway_bridge_bi_variant_3",
+        "keerdm_zombie_essentials:highway_bridge_bi_variant_4",
+        "highway_bridge_bi",
+        "highway_bridge_bi",
+        "highway_bridge_bi",
+        "highway_bridge_bi",
+        "highway_bridge_bi"
+      ],
+      "tunnel": [
+        "keerdm_zombie_essentials:highway_tunnel_variant_1",
+        "keerdm_zombie_essentials:highway_tunnel_variant_2",
+        "keerdm_zombie_essentials:highway_tunnel_variant_3",
+        "keerdm_zombie_essentials:highway_tunnel_variant_4",
+        "keerdm_zombie_essentials:highway_tunnel_variant_5",
+        "keerdm_zombie_essentials:highway_tunnel_variant_6",
+        "keerdm_zombie_essentials:highway_tunnel_variant_7",
+        "highway_tunnel",
+        "highway_tunnel",
+        "highway_tunnel",
+        "highway_tunnel",
+        "highway_tunnel",
+        "highway_tunnel",
+        "highway_tunnel",
+        "highway_tunnel",
+        "highway_tunnel",
+        "highway_tunnel"
+      ],
+      "tunnel_bi": [
+        "keerdm_zombie_essentials:highway_tunnel_bi_variant_1",
+        "keerdm_zombie_essentials:highway_tunnel_bi_variant_2",
+        "keerdm_zombie_essentials:highway_tunnel_bi_variant_3",
+        "keerdm_zombie_essentials:highway_tunnel_bi_variant_4",
+        "highway_tunnel_bi",
+        "highway_tunnel_bi",
+        "highway_tunnel_bi",
+        "highway_tunnel_bi",
+        "highway_tunnel_bi"
+      ],
+      "open": [
+        "keerdm_zombie_essentials:highway_open_variant_1",
+        "keerdm_zombie_essentials:highway_open_variant_2",
+        "keerdm_zombie_essentials:highway_open_variant_3",
+        "keerdm_zombie_essentials:highway_open_variant_4",
+        "keerdm_zombie_essentials:highway_open_variant_5",
+        "keerdm_zombie_essentials:highway_open_variant_6",
+        "keerdm_zombie_essentials:highway_open_variant_7",
+        "highway_open",
+        "highway_open",
+        "highway_open",
+        "highway_open",
+        "highway_open",
+        "highway_open",
+        "highway_open",
+        "highway_open",
+        "highway_open",
+        "highway_open"
+      ],
+      "open_bi": [
+        "keerdm_zombie_essentials:highway_open_bi_variant_1",
+        "keerdm_zombie_essentials:highway_open_bi_variant_2",
+        "keerdm_zombie_essentials:highway_open_bi_variant_3",
+        "keerdm_zombie_essentials:highway_open_bi_variant_4",
+        "highway_open_bi",
+        "highway_open_bi",
+        "highway_open_bi",
+        "highway_open_bi",
+        "highway_open_bi"
+      ]
+    }
+  }
+}

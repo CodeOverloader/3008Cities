@@ -1,8 +1,12 @@
 {
   "values": [
     {
-      "factor": 70,
-      "value": "testassets:chests/testloot"
+      "factor": 20,
+      "value": "keerdm_zombie_essentials:chests/tacz_gunchest"
+    },
+    {
+      "factor": 15,
+      "value": "keerdm_zombie_essentials:chests/tacz_ammochest"
     },
     {
       "factor": 8,
@@ -31,10 +35,6 @@
     {
       "factor": 1,
       "value": "minecraft:chests/desert_pyramid"
-    },
-    {
-      "factor": 1,
-      "value": "minecraft:chests/end_city_treasure"
     },
     {
       "factor": 1,
