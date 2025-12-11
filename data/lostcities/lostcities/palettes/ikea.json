@@ -43,6 +43,38 @@
     {
       "char": "s",
       "block": "minecraft:spruce_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "O",
+      "block": "mcwfurnitures:brown_couch[facing=north,shape=middle]"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:spruce_fence[east=false,north=true,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "char": "J",
+      "block": "mcwfurnitures:oak_glass_table[east=false,north=false,south=false,west=false]"
+    },
+    {
+      "char": "M",
+      "block": "mcwfurnitures:spruce_chair[facing=east]"
+    },
+    {
+      "char": "P",
+      "block": "mcwfurnitures:brown_couch[facing=north,shape=right]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:gray_wool"
+    },
+    {
+      "char": "N",
+      "block": "mcwfurnitures:brown_couch[facing=north,shape=left]"
+    },
+    {
+      "char": "H",
+      "block": "minecraft:spruce_fence[east=true,north=true,south=false,waterlogged=false,west=false]"
     }
   ]
 }
