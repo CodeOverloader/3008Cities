@@ -10,8 +10,7 @@ This can be used as a reference for your own assets. This example does the follo
 
 # How to install
 * Get a clone of this repository (using git or download as a zip).
-* Make a zip file at the root of this repository (so the directory contains 'data', 'META-INF', and 'pack.mcmeta'. So these three files should be at the root of the zip
-* Rename the zip file to jar
+* Run the powershell script to automatically build the jar
 * Put the jar file in the mods folder of your modpack or instance
 
 As an alternative you can also download the jar directly from this page (it's a released file)
