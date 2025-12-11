@@ -9,6 +9,12 @@
     [
       {
         "factor": 1.0,
+        "palette": "ikea"
+      }
+    ],
+    [
+      {
+        "factor": 1.0,
         "palette": "default"
       }
     ],
