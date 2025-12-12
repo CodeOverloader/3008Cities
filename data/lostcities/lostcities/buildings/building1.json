@@ -11,36 +11,32 @@
       "part": "building1_2"
     },
     {
-      "top": false,
+      "top": true,
       "part": "building1_3"
     },
     {
-      "top": false,
+      "top": true,
       "part": "building1_4"
     },
     {
-      "top": false,
+      "top": true,
       "part": "building1_5"
     },
     {
-      "top": false,
+      "top": true,
       "part": "building1_6"
     },
     {
-      "top": false,
+      "top": true,
       "part": "building1_7"
     },
     {
-      "top": false,
+      "top": true,
       "part": "building1_8"
     },
     {
-      "top": false,
-      "part": "building1_9"
-    },
-    {
       "top": true,
-      "part": "top"
+      "part": "building1_9"
     }
   ]
 }

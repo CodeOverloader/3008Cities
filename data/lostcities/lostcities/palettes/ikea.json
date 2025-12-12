@@ -75,6 +75,14 @@
     {
       "char": "H",
       "block": "minecraft:spruce_fence[east=true,north=true,south=false,waterlogged=false,west=false]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:chain[axis=y,waterlogged=false]"
+    },
+    {
+      "char": "L",
+      "block": "new_slab_variants:ochre_froglight_slab[type=top,waterlogged=false]"
     }
   ]
 }
