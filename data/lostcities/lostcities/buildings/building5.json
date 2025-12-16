@@ -11,14 +11,6 @@
       "part": "building5_2"
     },
     {
-      "top": false,
-      "part": "building5_3"
-    },
-    {
-      "top": false,
-      "part": "building5_4"
-    },
-    {
       "top": true,
       "part": "top"
     }

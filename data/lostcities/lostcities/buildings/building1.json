@@ -1,42 +1,15 @@
 {
   "filler": "e",
   "rubble": "}",
+  "maxcellars": 0,
   "parts": [
     {
-      "top": false,
+      "floor": 0,
       "part": "building1_1"
     },
     {
-      "top": false,
-      "part": "building1_2"
-    },
-    {
       "top": true,
-      "part": "building1_3"
-    },
-    {
-      "top": true,
-      "part": "building1_4"
-    },
-    {
-      "top": true,
-      "part": "building1_5"
-    },
-    {
-      "top": true,
-      "part": "building1_6"
-    },
-    {
-      "top": true,
-      "part": "building1_7"
-    },
-    {
-      "top": true,
-      "part": "building1_8"
-    },
-    {
-      "top": true,
-      "part": "building1_9"
+      "part": "top"
     }
   ]
 }
