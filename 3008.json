@@ -96,7 +96,7 @@
     "bridgeChance": 0,
     "ruinMinlevelPercent": 0,
     "spawnRadiusIncrease": 100,
-    "buildingDoorwayChance": 0.6,
+    "buildingDoorwayChance": 0,
     "icon": "textures/gui/icon_onlycities.png",
     "parkElevation": false,
     "description": "Custom 3008 City Profile",

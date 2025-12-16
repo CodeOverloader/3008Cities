@@ -2,6 +2,7 @@
   "filler": "e",
   "rubble": "}",
   "maxcellars": 0,
+  "allowDoors": false,
   "parts": [
     {
       "floor": 0,
