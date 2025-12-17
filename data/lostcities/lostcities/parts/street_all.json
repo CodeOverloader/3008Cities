@@ -5,15 +5,19 @@
     "palette": [
       {
         "char": "b",
-        "block": "minecraft:grass_block"
+        "block": "minecraft:light_gray_concrete"
+      },
+      {
+        "char": " ",
+        "block": "minecraft:air"
       }
     ]
   },
   "slices": [
     [
-      "bvvbSSSSSSSSbvvb",
-      "vvvbSSSSSSSSbvvv",
-      "vvvbSSSSSSSSbvvv",
+      "bbbbSSSSSSSSbbbb",
+      "bbbbSSSSSSSSbbbb",
+      "bbbbSSSSSSSSbbbb",
       "bbbbSSSSSSSSbbbb",
       "SSSSSSSSSSSSSSSS",
       "SSSSSSSSSSSSSSSS",
@@ -24,9 +28,118 @@
       "SSSSSSSSSSSSSSSS",
       "SSSSSSSSSSSSSSSS",
       "bbbbSSSSSSSSbbbb",
-      "vvvbSSSSSSSSbvvv",
-      "vvvbSSSSSSSSbvvv",
-      "bvvbSSSSSSSSbvvb"
+      "bbbbSSSSSSSSbbbb",
+      "bbbbSSSSSSSSbbbb",
+      "bbbbSSSSSSSSbbbb"
+    ],
+    [
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                "
+    ],
+    [
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                "
+    ],
+    [
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                "
+    ],
+    [
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                "
+    ],
+    [
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                "
+    ],
+    [
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                "
     ]
+
   ]
 }

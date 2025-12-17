@@ -31,8 +31,9 @@
     },
     {
       "char": "S",
-      "variant": "asphalt",
+      "block": "minecraft:cyan_terracotta",
       "damaged": "minecraft:iron_bars"
+
     },
     {
       "char": "b",

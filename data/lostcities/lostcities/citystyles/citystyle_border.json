@@ -28,11 +28,11 @@
       {
         "factor": 0.5,
         "value": "building1"
-	  },
+      },
       {
         "factor": 0.5,
         "value": "building2"
-	  },
+      },
       {
         "factor": 0.5,
         "value": "building3"
@@ -40,7 +40,7 @@
       {
         "factor": 0.5,
         "value": "building4"
-	  },
+      },
       {
         "factor": 0.5,
         "value": "building5"
@@ -51,22 +51,22 @@
       }
     ],
     "multibuildings": [
-	  {
-	    "factor": 0,
+      {
+        "factor": 0,
         "value": "shopping"
-	  },
+      },
       {
         "factor": 0,
         "value": "townhall"
-	  },
+      },
       {
         "factor": 0,
         "value": "center"
-	  },
+      },
       {
         "factor": 0,
         "value": "library"
-	  },
+      },
       {
         "factor": 0,
         "value": "shopping_open"
@@ -128,40 +128,7 @@
         "value": "fountain3"
       }
     ],
-    "parks": [
-      {
-        "factor": 1.0,
-        "value": "park_pool"
-      },
-      {
-        "factor": 1.0,
-        "value": "park_plants"
-      },
-      {
-        "factor": 1.0,
-        "value": "park_trees"
-      },
-      {
-        "factor": 1.0,
-        "value": "park_plants_pillars"
-      },
-      {
-        "factor": 0.8,
-        "value": "park_fountain1"
-      },
-      {
-        "factor": 0.8,
-        "value": "park_fountain2"
-      },
-      {
-        "factor": 0.3,
-        "value": "park_building"
-      },
-      {
-        "factor": 0.3,
-        "value": "park_building2"
-      }
-    ],
+    "parks": [],
     "raildungeons": [
       {
         "factor": 1.0,
