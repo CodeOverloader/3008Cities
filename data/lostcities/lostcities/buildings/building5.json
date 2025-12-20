@@ -1,15 +1,12 @@
 {
-  "filler": "#",
+  "filler": "e",
   "rubble": "}",
+  "maxcellars": 0,
   "allowDoors": false,
   "parts": [
     {
-      "top": false,
+      "floor": 0,
       "part": "building5_1"
-    },
-    {
-      "top": false,
-      "part": "building5_2"
     },
     {
       "top": true,
